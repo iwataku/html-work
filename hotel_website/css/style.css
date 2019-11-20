@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 333 fff f7c08a 4444444*/
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 960px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #333;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#navbar li a:hover, #navbar li a.current {
+  background: #444;
+  color: #f7c08a
+}
+
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 700px;
+  text-align: center;
+}
+
+#showcase .showcase-content {
+  padding: 200px 0px;
+}
+
+#showcase h1 {
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+#showcase p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#showcase a {
+  margin-top: 20px;
+}

@@ -39,6 +39,10 @@ p {
   font-size: 20px;
 }
 
+.text-primary {
+  color: #f7c08a;
+}
+
 #navbar {
   background: #333;
   color: #fff;
@@ -88,13 +92,14 @@ p {
 }
 
 #showcase h1 {
-  font-size: 60px;
+  font-size: 70px;
   margin-top: 30px;
 }
 
 #showcase p {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 20px;
+  line-height: 1.6em;
 }
 
 #showcase a {

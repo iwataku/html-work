@@ -1,0 +1,50 @@
+:root {
+  --light-color: #fff;
+  --text-primary-color: #93cb52;
+  --dark-bgcolor: #333;
+  --paragraph-font-size: 1.2rem;
+  --h1-font-size: 2.1rem;
+  --h2-font-size: 1.8rem;
+  --h3-font-size: 1.5rem;
+  --section-vertical-padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base element setting */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+  padding: var(--section-vertical-padding) 0;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.text-primary {
+  color: var(--text-primary-color);
+}

@@ -254,6 +254,11 @@ p {
   height: 200px;
 }
 
+#contact-form input:focus, #contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
 /* contact-info */
 
 #contact-info {
@@ -271,8 +276,6 @@ p {
 #contact-info .box i {
   margin-bottom: 20px;
 }
-
-#contact-info .box h3 {}
 
 /* footer */
 

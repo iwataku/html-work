@@ -8,7 +8,6 @@
 
 html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #fff;
   line-height: 1.7em;
 }
 
@@ -34,13 +33,22 @@ p {
 .btn {
   display: inline-block;
   background: #333;
-  padding: 20px;
+  padding: 15px 20px;
   color: #fff;
   font-size: 20px;
 }
 
+.btn-light {
+  background: #fff;
+  color: #333;
+}
+
 .text-primary {
   color: #f7c08a;
+}
+
+.bg-primary {
+  background: #f7c08a;
 }
 
 #navbar {
@@ -71,9 +79,9 @@ p {
 #navbar li a {
   display: block;
   color: #fff;
-  padding: 20px;
+  padding: 20px 15px;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #navbar li a:hover, #navbar li a.current {
@@ -85,15 +93,16 @@ p {
   background: url('../img/showcase.jpg') no-repeat center center/cover;
   height: 700px;
   text-align: center;
+  color: #fff;
 }
 
 #showcase .showcase-content {
-  padding: 200px 0px;
+  padding-top: 150px;
 }
 
 #showcase h1 {
-  font-size: 70px;
-  margin-top: 30px;
+  font-size: 60px;
+  line-height: 1.2em;
 }
 
 #showcase p {
@@ -104,4 +113,65 @@ p {
 
 #showcase a {
   margin-top: 20px;
+}
+
+/* Info Section  */
+
+#home-info {
+  height: 500px;
+}
+
+#info-img {
+  background: url('../img/photo-1.jpg') no-repeat center center/cover;
+  float: left;
+  width: 50%;
+  height: 100%
+}
+
+#info-content {
+  background: #333;
+  float: right;
+  width: 50%;
+  height: 100%;
+  color: #fff;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+#info-content a {
+  margin-top: 15px;
+}
+
+/* feature section */
+
+#features {
+  color: #333;
+  height: 400px;
+}
+
+#features .box {
+  float: left;
+  width: 33.3%;
+  height: 100%;
+  text-align: center
+}
+
+#features .box i {
+  margin: 20px;
+}
+
+#features .box p {
+  padding: 0 30px;
+  font-size: 20px
+}
+
+/* footer */
+
+#main-footer div {
+  background: #333;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  height: 80px;
+  padding: 20px;
 }

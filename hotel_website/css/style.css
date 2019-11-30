@@ -224,10 +224,60 @@ p {
   margin-right: 20px;
 }
 
+/* contact form */
+
+#contact-form {
+  background-color: #f4f4f4;
+  padding-bottom: 20px;
+}
+
+#contact-form .l-heading {
+  margin: 30px 0px;
+  font-size: 40px;
+}
+
+#contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+#contact-form .form-group label {
+  display: block;
+}
+
+#contact-form .form-group input, #contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px 0;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+/* contact-info */
+
+#contact-info {
+  padding: 40px 0;
+  background: #333;
+  color: white;
+}
+
+#contact-info .box {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+#contact-info .box i {
+  margin-bottom: 20px;
+}
+
+#contact-info .box h3 {}
+
 /* footer */
 
 #main-footer {
-  background: #333;
+  background: #444;
   color: white;
   text-align: center;
   font-size: 20px;
